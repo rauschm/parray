@@ -23,3 +23,8 @@ Vorkommen der K verschiedenen Ziffern zählt.
 
 Das Parray kommt auch aus der Kombinatorik. Es wird dort eingesetzt, um
 theoretische Überlegungen praktisch schnell überprüfen zu können.
+
+Der Name "Pascalsches Array" rührt von der Datenstruktur her, die zur
+Berechnung des eindimensionalen Index aus dem mehrdimensionalen Index
+verwendet wird: ein Pascalsches Dreieck, das allerdings um 60° gedreht
+wird und damit zum Pascalschen Viereck wird.
