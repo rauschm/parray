@@ -15,7 +15,7 @@ für die gigantische Menge eines Potenz-Arrays nur noch ca. 10 Millionen
 Einträge, was locker in den Hauptspeicher eines Computers passt.
 
 Erkauft wird das dadurch, dass die Indices eines Parray nicht beliebig
-gewählt werden dürfen. Es gilt folgende Einschänkung: Die Summe der
+gewählt werden dürfen. Es gilt folgende Einschränkung: Die Summe der
 (nur positiven) Indices muss immer N ergeben.
 
 Das ist beispielsweise gegeben, wenn man bei einer N-stelligen Zahl die
