@@ -8,7 +8,7 @@ hoch der Anzahl der Dimensionen N: K<sup>N</sup>. Bei N = 3 und K = 8 sind das
 
 Ein Parray<N,K> (Pascalsches Array) dagegen benötigt nur (N+K-1)! / N!(K-1)!
 (= N+K-1 über K-1) Speicherplätze. Analog zum obigen Beispiel benötigt ein
-Parray<3,8> also (3+8-1)! / 3! / 7! = 10*9*8 / (3*2) = 120 Speicherplätze,
+Parray<3,8> also (3+8-1)! / 3! / 7! = 10 * 9 * 8 / (3 * 2) = 120 Speicherplätze,
 also weniger als ein Viertel.
 
 Mit zunehmendem N wird die Einsparung immer größer. Bei <20,10> braucht man
