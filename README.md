@@ -3,8 +3,8 @@
 Ein "normales" Array könnte man als Potenz-Array bezeichnen, denn der
 Speicherbedarf ergibt sich aus dem Produkt der Größen der einzelnen
 Dimensionen, und wenn diese alle gleich sind, als Potenz dieser Größe K
-hoch der Anzahl der Dimensionen N: K^N. Bei N = 3 und K = 8 sind das
-8³ = 512 Speicherplätze.
+hoch der Anzahl der Dimensionen N: K<sup>N</sup>. Bei N = 3 und K = 8 sind das
+8<sup>3</sup> = 512 Speicherplätze.
 
 Ein Parray<N,K> (Pascalsches Array) dagegen benötigt nur (N+K-1)! / N!(K-1)!
 (= N+K-1 über K-1) Speicherplätze. Analog zum obigen Beispiel benötigt ein
