@@ -6,10 +6,9 @@ Dimensionen, und wenn diese alle gleich sind, als Potenz dieser Größe K
 hoch der Anzahl der Dimensionen N: K<sup>N</sup>. Bei N = 3 und K = 8 sind das
 8<sup>3</sup> = 512 Speicherplätze.
 
-Ein Parray<N,K> (Pascalsches Array) dagegen benötigt nur (N+K-1)! / N!(K-1)!
-(= N+K-1 über K-1) Speicherplätze. Analog zum obigen Beispiel benötigt ein
-Parray<3,8> also $\binom{3+8-1}{8-1}$ = (3+8-1)! / 3! / (8-1)! = 10\*9\*8 / (3\*2) = 120 Speicherplätze,
-also weniger als ein Viertel.
+Ein Parray<N,K> (Pascalsches Array) dagegen benötigt nur $\binom{N+K-1}{K-1)}
+Speicherplätze. Analog zum obigen Beispiel benötigt ein Parray<3,8> also
+$\binom{3+8-1}{8-1}$ = 120 Speicherplätze, also weniger als ein Viertel.
 
 Mit zunehmendem N wird die Einsparung immer größer. Bei <20,10> braucht man
 für die gigantische Menge eines Potenz-Arrays nur noch ca. 10 Millionen
